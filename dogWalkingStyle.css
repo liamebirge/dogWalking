@@ -9,6 +9,10 @@ header h1{
     text-shadow: #000 0px 0px 1px;
     -webkit-font-smoothing: antialiased;
 }
+header .navButtons{
+	display: flex;
+	justify-content: space-around;
+}
 section{
 	min-height: 600px;
 }
@@ -25,7 +29,7 @@ footer{
 a{
 	border:1px solid black;
 	border-radius:3px;
-	border-bottom:none;
+	margin-bottom:-10px;
 }
 a, a:visited{
 	text-decoration: none;
@@ -37,5 +41,4 @@ a:hover{
 	text-decoration: none;
 	color:grey;
 	border:1px dotted black;
-	border-bottom: none;
 }
