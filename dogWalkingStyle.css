@@ -48,3 +48,16 @@ a:hover{
 	border:1px dotted black;
 	border-bottom: none;
 }
+fieldset{
+	width:500px;
+	margin-top:10px;
+	margin-bottom
+}
+div{
+	width:100%;
+}
+div#form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

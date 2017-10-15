@@ -12,7 +12,7 @@
 			<div class="navButtons">
 				<a href="index.html">Home</a>
 				<a href="about.html">About Us</a>
-				<a href="routes.html">Routes</a>
+				<a href="routes.html">Packages</a>
 				<a href="bookAWalk.html">Book A Walk</a>
 			</div>
 		</header>
@@ -20,20 +20,38 @@
 		<section>
 			<div id="form">
 				<form action="#">
-					<fieldset>
+					<fieldset class="contact">
 						<legend>Name:</legend>
 						<input type="text" name="firstName" placeholder="First Name" /><br />
 						<input type="text" name="lastName" placeholder="Last Name" /><br />
 					</fieldset>
 					<!--phone number, email, route/length of walk-->
-					<fieldset>
+					<fieldset class="contact">
 					<legend>Contact Info:</legend>
 						<input type="text" name="phoneNumber" placeholder="###-###-####" /><br />
 						<input type="text" name="email" placeholder="example@email.com" /><br />
 					</fieldset>
-					<fieldset>
+					<fieldset class="contact">
+						<legend>Walk Info:</legend>
+						<select id="walkSelect">
+							<option value="" disabled="disabled" selected="selected">Please select a package</option>
+							<option value="1">Dogs Unleashed</option>
+							<option value="2">Woof Pack</option>
+							<option value="3">King Pup</option>
+							<option value="4">Golden Leash</option>
+						</select><br />
+						Length of Walk: 
+						<select id="walkLength">
+							<option value="1">1 Km</option>
+							<option value="2">2 Km</option>
+							<option value="3">3 Km</option>
+							<option value="4">4 Km</option>
+							<option value="5">5 Km</option>
+						</select>
+					</fieldset>
+					<fieldset class="contact">
 						<legend>Comments:</legend>
-						<input style="width:200px;" type="text" name="comments" placeholder="Anything you want us to know?">
+						<input style="width:200px;" type="text" name="comments" placeholder="Anything you want us to know?"><br />
 						<input type="submit" value="Submit" />
 					</fieldset>
 				</form>
