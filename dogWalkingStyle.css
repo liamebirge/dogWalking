@@ -3,29 +3,11 @@ body{
 }
 header{
 	text-align: center;
-	background-size: 20%;
-	background-position: 50% 20%;
 }
 header h1{
 	color: white;
     text-shadow: #000 0px 0px 1px;
     -webkit-font-smoothing: antialiased;
-}
-header button{
-	text-align: center;
-	width:33%;
-	height:40px;
-	background: lightgrey;
-	background-color:rgba(0, 0, 0, 0.5);
-	border:1px solid black;
-	border-radius: 3px;
-}
-header button:hover{
-	border:2px solid black;
-}
-.navMenu{
-	display:flex;
-	justify-content: space-around;
 }
 section{
 	min-height: 600px;
@@ -39,4 +21,21 @@ footer{
 	background-color: #efefef;
 	text-align: center;
 	height:50px;
+}
+a{
+	border:1px solid black;
+	border-radius:3px;
+	border-bottom:none;
+}
+a, a:visited{
+	text-decoration: none;
+	color:black;
+	padding:10px;
+	margin:5px;
+}
+a:hover{
+	text-decoration: none;
+	color:grey;
+	border:1px dotted black;
+	border-bottom: none;
 }
