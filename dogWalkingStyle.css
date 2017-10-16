@@ -68,3 +68,6 @@ form{
 	flex-direction: column;
 	align-items: center;
 }
+section.bawSection{
+	background-image: url(Pictures/dirtBG.jpg) grey;
+}
