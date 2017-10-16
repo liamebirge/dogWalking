@@ -47,8 +47,10 @@ a:hover{
 	color:grey;
 	border:1px dotted black;
 }
-a.email{
+footer a{
 	border:none;
+	padding:2px;
+	margin:0px;
 }
 fieldset{
 	width:500px;
