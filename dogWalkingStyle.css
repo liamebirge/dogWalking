@@ -47,6 +47,9 @@ a:hover{
 	color:grey;
 	border:1px dotted black;
 }
+email a{
+	border:none;
+}
 fieldset{
 	width:500px;
 	margin-top:10px;
