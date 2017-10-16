@@ -49,6 +49,7 @@ a:hover{
 	border-bottom: none;
 }
 fieldset{
+	display:flex;
 	width:500px;
 	margin-top:10px;
 	margin-bottom
