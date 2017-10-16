@@ -3,6 +3,7 @@ body{
 }
 header{
 	text-align: center;
+	height:120px;
 }
 header h1{
 	color: white;
@@ -31,7 +32,6 @@ footer{
 }
 a{
 	border:1px solid black;
-	border-bottom: none;
 	border-radius:3px;
 	margin-bottom:-10px;
 	width:100px;
@@ -46,7 +46,6 @@ a:hover{
 	text-decoration: none;
 	color:grey;
 	border:1px dotted black;
-	border-bottom: none;
 }
 fieldset{
 	width:500px;
