@@ -49,10 +49,15 @@ a:hover{
 	border-bottom: none;
 }
 fieldset{
-	display:flex;
 	width:500px;
 	margin-top:10px;
 	margin-bottom
+}
+fieldset input, fieldset legend, fieldset select{
+	margin:10px;
+}
+form input[type=submit]{
+	align-self: center;
 }
 div{
 	width:100%;
