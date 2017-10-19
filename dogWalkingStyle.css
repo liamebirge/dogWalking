@@ -3,15 +3,21 @@ body{
 }
 header{
 	text-align: center;
+	height: 150px;
+	background-image: url("headerpackages.jpg");
+	
 }
 header h1{
-	color: white;
-    text-shadow: #000 0px 0px 1px;
-    -webkit-font-smoothing: antialiased;
+	font-size: 90;
+	color: rgb(88, 165, 136);
+    text-shadow: rgb(0, 0, 0) 0px 0px 1px;
+	-webkit-font-smoothing: antialiased;
 }
 header .navButtons{
 	display: flex;
 	justify-content: space-around;
+	position:absolute;
+	bottom:490;
 }
 header a{
 	margin-bottom: -9px;
