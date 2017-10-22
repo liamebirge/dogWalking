@@ -2,7 +2,11 @@
 	margin: auto;
 	height: 425px;
     width: 680;
+<<<<<<< HEAD
 	background-image: url("Pictures/woofpack.jpg");
+=======
+	background-image: url("woofpack.jpg");
+>>>>>>> 2473ec75562dc3170168c4a5716e976c6cbd3ecc
     position: center;
     border-style: ridge;
     border-width: 10px;
@@ -15,7 +19,11 @@
 	margin: auto;
 	height: 425px;
     width: 680;
+<<<<<<< HEAD
 	background-image: url("Pictures/dogs-unleashed.jpg");
+=======
+	background-image: url("dogs-unleashed.jpg");
+>>>>>>> 2473ec75562dc3170168c4a5716e976c6cbd3ecc
     position: center;
     border-style: ridge;
     border-width: 10px;
@@ -26,7 +34,11 @@
 	margin: auto;
 	height: 425px;
     width: 680;
+<<<<<<< HEAD
 	background-image: url("Pictures/Kingpup.jpg");
+=======
+	background-image: url("Kingpup.jpg");
+>>>>>>> 2473ec75562dc3170168c4a5716e976c6cbd3ecc
     position: center;
     border-style: ridge;
     border-width: 10px;
@@ -38,7 +50,11 @@
 	margin: auto;
 	height: 425px;
     width: 680;
+<<<<<<< HEAD
 	background-image: url("Pictures/goldenleash.jpg");
+=======
+	background-image: url("goldenleash.jpg");
+>>>>>>> 2473ec75562dc3170168c4a5716e976c6cbd3ecc
     position: center;
     border-style: ridge;
     border-width: 10px;
