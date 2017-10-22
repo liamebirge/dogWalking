@@ -1,5 +1,6 @@
 body{
 	font-family: "Times New Roman", Georgia, Sans-Serif;
+	background-color: #DEC8AF;
 }
 header{
 	text-align: center;
@@ -32,15 +33,27 @@ footer{
 	bottom: 0;
 	left: 0;
 	padding: 1em;
-	background-color: #efefef;
+	background-color: #A7B39B;
 	text-align: center;
 	height:50px;
+}
+footer a{
+	border:none;
+	background-color: inherit;
+	padding:2px;
+	margin:0px;
+}
+footer a:hover{
+	background-color: inherit;
+	border:none;
+	color:#644D3C;
 }
 a{
 	border:1px solid black;
 	border-radius:3px;
 	margin-bottom:-10px;
 	width:100px;
+	background-color: rgba(255, 255, 255, 0.2);
 }
 a, a:visited{
 	text-decoration: none;
@@ -50,21 +63,18 @@ a, a:visited{
 }
 a:hover{
 	text-decoration: none;
-	color:grey;
+	color:black;
 	border:1px dotted black;
-}
-footer a{
-	border:none;
-	padding:2px;
-	margin:0px;
+	background-color: rgba(255, 255, 255, 0.5);
 }
 fieldset{
 	width:500px;
 	margin-top:10px;
 	margin-bottom
 }
-fieldset input, fieldset legend, fieldset select{
+fieldset input, fieldset select{
 	margin:10px;
+	background-color: #C7A379;
 }
 #submitBttn{
 	margin-top:10px;
