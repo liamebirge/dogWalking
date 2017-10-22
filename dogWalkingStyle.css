@@ -4,7 +4,7 @@ body{
 header{
 	text-align: center;
 	height: 150px;
-	background-image: url("headerpackages.jpg");
+	background-image: url("Pictures/headerpackages.jpg");
 	
 }
 header h1{
@@ -24,6 +24,7 @@ header a{
 }
 section{
 	min-height: 600px;
+	margin-top:150px;
 }
 footer{
 	position: relative;
