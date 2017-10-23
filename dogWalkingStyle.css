@@ -4,13 +4,8 @@ body{
 }
 header{
 	text-align: center;
-<<<<<<< HEAD
-	height:120px;
-=======
 	height: 150px;
 	background-image: url("Pictures/headerpackages.jpg");
-	
->>>>>>> 1aa396e5181fd94d3157b7104348b37f22502594
 }
 header h1{
 	font-size: 90;
@@ -69,27 +64,19 @@ a:hover{
 	text-decoration: none;
 	color:black;
 	border:1px dotted black;
-<<<<<<< HEAD
 }
 a.email{
 	border:none;
-=======
 	background-color: rgba(255, 255, 255, 0.5);
->>>>>>> 1aa396e5181fd94d3157b7104348b37f22502594
 }
 fieldset{
 	width:500px;
 	margin-top:10px;
 	margin-bottom
 }
-<<<<<<< HEAD
 fieldset input, fieldset legend, fieldset select{
 	margin:10px;
-=======
-fieldset input, fieldset select{
-	margin:10px;
 	background-color: #C7A379;
->>>>>>> 1aa396e5181fd94d3157b7104348b37f22502594
 }
 #submitBttn{
 	margin-top:10px;
