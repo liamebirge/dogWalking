@@ -74,7 +74,11 @@ fieldset{
 	margin-top:10px;
 	margin-bottom
 }
-fieldset input, fieldset select{
+fieldset textarea{
+	width:70%;
+	height:100px;
+}
+fieldset input, fieldset select, fieldset textarea{
 	margin:10px;
 	background-color: #C7A379;
 }
