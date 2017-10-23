@@ -17,50 +17,41 @@
 			</div>
 		</header>
 		<hr />
-		<section>
+		<section class="bawSection">
 			<div id="form">
 				<form action="#">
 					<fieldset class="contact">
 						<legend>Name:</legend>
-						<input type="text" name="firstName" placeholder="First Name" /><br />
-						<input type="text" name="lastName" placeholder="Last Name" /><br />
+						<input type="text" name="firstName" required="required" placeholder="First Name" />*<br />
+						<input type="text" name="lastName" required="required" placeholder="Last Name" />*<br />
 					</fieldset>
 					<!--phone number, email, route/length of walk-->
 					<fieldset class="contact">
 					<legend>Contact Info:</legend>
-						<input type="text" name="phoneNumber" placeholder="###-###-####" /><br />
-						<input type="text" name="email" placeholder="example@email.com" /><br />
+						Phone: <input type="text" name="phoneNumber" required="required" placeholder="###-###-####" />*<br />
+						Email: <input type="text" name="email" required="required" placeholder="example@email.com" />*<br />
 					</fieldset>
 					<fieldset class="contact">
 						<legend>Walk Info:</legend>
-						<select id="walkSelect">
+						Walk Package:<br />
+						<select id="walkSelect" required="required">
 							<option value="" disabled="disabled" selected="selected">Please select a package</option>
 							<option value="1">Dogs Unleashed</option>
 							<option value="2">Woof Pack</option>
 							<option value="3">King Pup</option>
 							<option value="4">Golden Leash</option>
-						</select><br />
-						Length of Walk: 
-						<select id="walkLength">
-							<option value="1">1 Km</option>
-							<option value="2">2 Km</option>
-							<option value="3">3 Km</option>
-							<option value="4">4 Km</option>
-							<option value="5">5 Km</option>
-						</select>
+						</select>*<br />
+						Comments: <br />
+						<input type="text" name="comments" placeholder="Anything you want us to know?"><br />
 					</fieldset>
-					<fieldset class="contact">
-						<legend>Comments:</legend>
-						<input style="width:200px;" type="text" name="comments" placeholder="Anything you want us to know?"><br />
-						<input type="submit" value="Submit" />
-					</fieldset>
+					<input id="submitBttn" type="submit" value="Submit" />
 				</form>
 			</div>
 		</section>
 		<footer>
-			<company></company><br />
-			Phone: <phone></phone><br />
-			Email: <email></email>
+			<b><company>Tails a Waggin' Dog Walking</company></b><br />
+			Phone: <u><phone>250-DOG-PAWS</phone></u><br />
+			Email: <u><email><a class="email" href="mailto:tails-a-waggin@gmail.com?Subject=Dog%20walking" target="_top">tails-a-waggin'@gmail.com</a></email></u>
 		</footer>
 	</body>
 </html>
