@@ -27,3 +27,9 @@
     border-color: rgb(212, 212, 212);
     margin:5px;
 }
+a.imgLink{
+	border:none;
+	background-color: inherit;
+	margin:0px;
+	padding:0px;
+}
