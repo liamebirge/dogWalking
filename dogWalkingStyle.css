@@ -38,12 +38,12 @@ footer{
 }
 footer a{
 	border:none;
-	background-color: inherit;
+	background-color: #A7B39B;
 	padding:2px;
 	margin:0px;
 }
 footer a:hover{
-	background-color: inherit;
+	background-color: #A7B39B;
 	border:none;
 	color:#644D3C;
 }
