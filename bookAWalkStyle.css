@@ -1,0 +1,29 @@
+.bawSection{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+.imgGalleryL, .imgGalleryR{
+	width:100%;
+	display:block;
+	justify-content: center;
+	align-content: space-around;
+	flex-flow: column wrap;
+}
+.imgGalleryR{
+	margin-left:5%;
+}
+.imgGalleryL{
+	margin-left: 10%;
+}
+.imgGalleryL img, .imgGalleryR img{
+	max-width: 300px;
+	max-height: 40%;
+	width:auto;
+	height:auto;
+	position: center;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: rgb(212, 212, 212);
+    margin:5px;
+}
