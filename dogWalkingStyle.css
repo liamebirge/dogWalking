@@ -6,7 +6,6 @@ header{
 	text-align: center;
 	height: 150px;
 	background-image: url("Pictures/headerpackages.jpg");
-	
 }
 header h1{
 	font-size: 90;
@@ -65,6 +64,9 @@ a:hover{
 	text-decoration: none;
 	color:black;
 	border:1px dotted black;
+}
+a.email{
+	border:none;
 	background-color: rgba(255, 255, 255, 0.5);
 }
 fieldset{
@@ -72,7 +74,7 @@ fieldset{
 	margin-top:10px;
 	margin-bottom
 }
-fieldset input, fieldset select{
+fieldset input, fieldset legend, fieldset select{
 	margin:10px;
 	background-color: #C7A379;
 }
