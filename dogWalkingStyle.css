@@ -74,7 +74,7 @@ fieldset{
 	margin-top:10px;
 	margin-bottom
 }
-fieldset input, fieldset legend, fieldset select{
+fieldset input, fieldset select{
 	margin:10px;
 	background-color: #C7A379;
 }
