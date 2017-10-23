@@ -1,24 +1,35 @@
 body{
 	font-family: "Times New Roman", Georgia, Sans-Serif;
+	background-color: #DEC8AF;
 }
 header{
 	text-align: center;
+<<<<<<< HEAD
 	height:120px;
+=======
+	height: 150px;
+	background-image: url("Pictures/headerpackages.jpg");
+	
+>>>>>>> 1aa396e5181fd94d3157b7104348b37f22502594
 }
 header h1{
-	color: white;
-    text-shadow: #000 0px 0px 1px;
-    -webkit-font-smoothing: antialiased;
+	font-size: 90;
+	color: rgb(88, 165, 136);
+    text-shadow: rgb(0, 0, 0) 0px 0px 1px;
+	-webkit-font-smoothing: antialiased;
 }
 header .navButtons{
 	display: flex;
 	justify-content: space-around;
+	position:absolute;
+	bottom:490;
 }
 header a{
 	margin-bottom: -9px;
 }
 section{
 	min-height: 600px;
+	margin-top:150px;
 }
 footer{
 	position: relative;
@@ -26,15 +37,27 @@ footer{
 	bottom: 0;
 	left: 0;
 	padding: 1em;
-	background-color: #efefef;
+	background-color: #A7B39B;
 	text-align: center;
 	height:50px;
+}
+footer a{
+	border:none;
+	background-color: inherit;
+	padding:2px;
+	margin:0px;
+}
+footer a:hover{
+	background-color: inherit;
+	border:none;
+	color:#644D3C;
 }
 a{
 	border:1px solid black;
 	border-radius:3px;
 	margin-bottom:-10px;
 	width:100px;
+	background-color: rgba(255, 255, 255, 0.2);
 }
 a, a:visited{
 	text-decoration: none;
@@ -44,19 +67,29 @@ a, a:visited{
 }
 a:hover{
 	text-decoration: none;
-	color:grey;
+	color:black;
 	border:1px dotted black;
+<<<<<<< HEAD
 }
 a.email{
 	border:none;
+=======
+	background-color: rgba(255, 255, 255, 0.5);
+>>>>>>> 1aa396e5181fd94d3157b7104348b37f22502594
 }
 fieldset{
 	width:500px;
 	margin-top:10px;
 	margin-bottom
 }
+<<<<<<< HEAD
 fieldset input, fieldset legend, fieldset select{
 	margin:10px;
+=======
+fieldset input, fieldset select{
+	margin:10px;
+	background-color: #C7A379;
+>>>>>>> 1aa396e5181fd94d3157b7104348b37f22502594
 }
 #submitBttn{
 	margin-top:10px;
