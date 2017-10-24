@@ -46,13 +46,22 @@
 					<fieldset class="contact">
 						<legend>Walk Info:</legend>
 						Walk Package:<br />
-						<select id="walkSelect" required="required">
-							<option value="" disabled="disabled" selected="selected">Please select a package</option>
-							<option value="1">Dogs Unleashed</option>
-							<option value="2">Woof Pack</option>
-							<option value="3">King Pup</option>
-							<option value="4">Golden Leash</option>
-						</select><i class="fa fa-info-circle" aria-hidden="true" onclick="infoPopup()"></i>*<br />
+						<div class="walkInfo">
+							<select id="walkSelect" required="required">
+								<option value="" disabled="disabled" selected="selected">Please select a package</option>
+								<option value="1">Dogs Unleashed</option>
+								<option value="2">Woof Pack</option>
+								<option value="3">King Pup</option>
+								<option value="4">Golden Leash</option>
+							</select>*&emsp;
+							<div class="infoBttn">?
+								<div class="infoContent">
+									Info on Walk Packages can be found <a href="packages.html">here</a>
+								</div>
+							</div>
+						</div>
+						<br />
+						Comments:<br />
 						<textarea placeholder="Tell us a bit about your dog(s)!"></textarea>
 					</fieldset>
 					<input id="submitBttn" type="submit" value="Submit" />
