@@ -1,5 +1,8 @@
 section{
-	min-width: 1030px
+	min-width: 1000px
+}
+header, .navButtons{
+	min-width: 600px;
 }
 #container {
     display: flex;
@@ -13,7 +16,10 @@ section{
     flex-direction: column;
     justify-content: flex-start;
     padding:0px;
+    padding-left:1%;
+    padding-right:5%;
     margin:0px;
+    margin-right:10px;
 }
 .imgGallery img{
 	width: 320%;
@@ -34,7 +40,7 @@ a.imgLink{
 }
 .infoContent {
     display: none;
-    background: #C8C8C8;
+    background: #A7B39B;
     padding: 10px;
     margin-left:20px;
     margin-top:-30px;
@@ -42,6 +48,8 @@ a.imgLink{
     height:50px;
     position: absolute;
     z-index: 1000;
+    border:1px solid black;
+    border-radius: 12px;
 }
 .infoBttn {
     margin:0px;
