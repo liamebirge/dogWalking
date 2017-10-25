@@ -4,6 +4,9 @@ section{
 header, .navButtons{
 	min-width: 600px;
 }
+small{
+	font-size: 10px;
+}
 #container {
     display: flex;
     justify-content: space-around;
