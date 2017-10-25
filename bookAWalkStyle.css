@@ -1,36 +1,40 @@
-.bawSection{
-	display: flex;
-	justify-content: center;
-	align-items: flex-start;
+section{
+	min-width: 1000px
 }
-.imgGalleryL, .imgGalleryR{
-	width:100%;
-	display:block;
-	justify-content: center;
-	align-content: space-around;
-	flex-flow: column wrap;
+header, .navButtons{
+	min-width: 600px;
 }
-.imgGalleryR{
-	margin-left:5%;
+small{
+	font-size: 10px;
 }
-.imgGalleryL{
-	margin-left: 10%;
+#container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
 }
-.imgGalleryL img, .imgGalleryR img{
-	max-width: 300px;
+.imgGallery {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding:0px;
+    padding-left:1%;
+    padding-right:5%;
+    margin:0px;
+    margin-right:10px;
+}
+.imgGallery img{
+	width: 320%;
 	max-height: 40%;
-	width:auto;
-	height:auto;
 	position: center;
-    border-style: ridge;
-    border-width: 5px;
-    border-color: rgb(212, 212, 212);
+    border: 5px ridge rgb(212, 212, 212);
     margin:5px;
 }
 a.imgLink{
 	border:none;
 	background-color: inherit;
-	margin:0px;
+	margin:10px;
 	padding:0px;
 }
 .infoBttn:hover .infoContent {
@@ -39,7 +43,7 @@ a.imgLink{
 }
 .infoContent {
     display: none;
-    background: #C8C8C8;
+    background: #A7B39B;
     padding: 10px;
     margin-left:20px;
     margin-top:-30px;
@@ -47,6 +51,8 @@ a.imgLink{
     height:50px;
     position: absolute;
     z-index: 1000;
+    border:1px solid black;
+    border-radius: 12px;
 }
 .infoBttn {
     margin:0px;
