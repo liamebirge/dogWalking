@@ -4,11 +4,11 @@ body{
 }
 header{
 	text-align: center;
-	height: 150px;
+	height: 130px;
 	background-image: url("Pictures/headerpackages.jpg");
 }
 header h1{
-	font-size: 90;
+	font-size: 90px;
 	color: rgb(88, 165, 136);
     text-shadow: rgb(0, 0, 0) 0px 0px 1px;
 	-webkit-font-smoothing: antialiased;
@@ -17,7 +17,7 @@ header .navButtons{
 	display: flex;
 	justify-content: space-around;
 	position:absolute;
-	bottom:530;
+	margin-top:-20px;
 }
 header a{
 	margin-bottom: -9px;
