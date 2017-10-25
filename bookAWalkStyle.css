@@ -12,7 +12,6 @@ small{
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
-<<<<<<< HEAD
 }
 .imgGallery {
     width: 250px;
@@ -25,20 +24,7 @@ small{
     margin:0px;
     margin-right:10px;
 }
-=======
-}
-.imgGallery {
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding:0px;
-    padding-left:1%;
-    padding-right:5%;
-    margin:0px;
-    margin-right:10px;
-}
->>>>>>> 1402b631ace9a8fe4d7955d63a75701720252e61
+
 .imgGallery img{
 	width: 320%;
 	max-height: 40%;
