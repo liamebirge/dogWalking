@@ -17,7 +17,7 @@ header .navButtons{
 	display: flex;
 	justify-content: space-around;
 	position:absolute;
-	bottom:490;
+	bottom:530;
 }
 header a{
 	margin-bottom: -9px;

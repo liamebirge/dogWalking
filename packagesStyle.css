@@ -47,7 +47,7 @@
 }
 .packageheader{
     color: white;
-    text-shadow: rgb(0, 0, 0) 0px 0px 1px;
+    text-shadow: rgb(0, 0, 0) 0px 0px 5px;
 	-webkit-font-smoothing: antialiased;
     text-align: center;
     font-size: 60;
@@ -56,12 +56,12 @@
 .packagetext{
     text-align: center;
     color: white;
-    text-shadow: rgb(0, 0, 0) 0px 0px 1px;
+    text-shadow: rgb(0, 0, 0) 0px 0px 5px;
     font-size: 20;
 
 }
 .packagelist{
     color: white;
-    text-shadow: rgb(0, 0, 0) 0px 0px 1px;
+    text-shadow: rgb(0, 0, 0) 0px 0px 5px;
     font-size: 20;
 }
