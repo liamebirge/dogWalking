@@ -1,26 +1,23 @@
-.bawSection{
-	display: flex;
-	justify-content: center;
-	align-items: flex-start;
+section{
+	min-width: 1030px
 }
-.imgGalleryL, .imgGalleryR{
-	width:100%;
-	display:block;
-	justify-content: center;
-	align-content: space-around;
-	flex-flow: column wrap;
+#container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
 }
-.imgGalleryR{
-	margin-left:5%;
+.imgGallery {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding:0px;
+    margin:0px;
 }
-.imgGalleryL{
-	margin-left: 10%;
-}
-.imgGalleryL img, .imgGalleryR img{
+.imgGallery img{
 	max-width: 300px;
 	max-height: 40%;
-	width:auto;
-	height:auto;
 	position: center;
     border-style: ridge;
     border-width: 5px;
@@ -30,7 +27,7 @@
 a.imgLink{
 	border:none;
 	background-color: inherit;
-	margin:0px;
+	margin:10px;
 	padding:0px;
 }
 .infoBttn:hover .infoContent {
