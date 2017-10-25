@@ -16,12 +16,10 @@ section{
     margin:0px;
 }
 .imgGallery img{
-	max-width: 300px;
+	width: 320%;
 	max-height: 40%;
 	position: center;
-    border-style: ridge;
-    border-width: 5px;
-    border-color: rgb(212, 212, 212);
+    border: 5px ridge rgb(212, 212, 212);
     margin:5px;
 }
 a.imgLink{
