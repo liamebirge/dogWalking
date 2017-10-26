@@ -84,3 +84,7 @@ a.imgLink{
 fieldset{
 	width:400px;
 }
+#adminLink{
+    text-decoration: none;
+    color: black;
+}
