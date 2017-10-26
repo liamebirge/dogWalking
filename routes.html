@@ -7,6 +7,22 @@
 		<link rel="stylesheet" type="text/css" href="dogWalkingStyle.css" />
 		<link rel="stylesheet" type="text/css" href="dogwalkchat.css">
   		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  		<script type="text/javascript">
+  			var header = document.getElementById('click-me');
+			var lowerContainer = document.getElementById('lower-container');
+			var isOpen = false;
+			var className = 'chatbox_lower-container__open';
+
+			header.addEventListener('click', function () {
+  				if (!isOpen) {
+    				isOpen = true;
+    				lowerContainer.classList.add(className);
+  				} else {
+    				isOpen = false;
+    				lowerContainer.classList.remove(className);
+  				}
+			});
+  		</script>
 	</head>
 	<body>
 		<header>
